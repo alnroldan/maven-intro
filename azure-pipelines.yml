@@ -11,6 +11,8 @@ variables:
     - group: java-prod
   - name: maven-ops
     value: '-Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN -Dorg.slf4j.simpleLogger.showDateTime=true -Dorg.slf4j.simpleLogger.dateTimeFormat=HH:mm:ss,SSS'
+  - name: PROJECT_ID
+    value: 'maven-intro'
 
 resources: 
   repositories:
